@@ -1,0 +1,316 @@
+html {
+    width: 98%;   
+    height: 50%;    
+    margin: auto;
+    overflow: hidden;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.8);
+    font-family: "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    color: white;
+    width: 90%;   
+    height: 70%;
+    margin: auto;
+}
+
+
+#replay_btn {
+    @media screen and (max-width : 600px) {
+        right: 70px;
+        width: 75px;
+        height: 75px;
+    }
+   	@media screen and (max-width : 400px) {
+        right: 50px;
+       	width: 40px;
+        height: 40px;
+    }
+    @media screen and (min-width : 600px) {
+        right: 50px;
+        width: 70px;
+        height: 70px;
+    }
+    position:relative;
+}
+
+#next_btn {
+	@media screen and (max-width : 400px) {
+        width: 40px;
+        height: 40px;
+    }
+	@media screen and (min-width : 400px) {
+        width: 70px;
+        height: 70px;
+    }
+    position:relative;
+    left: 50px; 
+}
+
+#newGame_btn {
+	@media screen and (max-width : 400px) {
+        margin-left: 20%;
+    }
+	@media screen and (min-width : 400px) {
+        margin-left: 30%;
+    }
+    width: 80%;
+    height: 20%;
+}
+
+.title {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.title__text {
+    @media screen and (max-width : 600px) {
+        font-size: 35px;
+    }
+    @media screen and (max-width : 400px) {
+        font-size: 30px;
+    }
+    @media screen and (min-width : 600px) {
+        font-size: 45px;
+    }
+    font-size: 30px;
+    text-decoration: overline;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.joy {
+    width: 95%;
+    height: 70%;
+    margin:auto;
+    
+}
+
+.error {
+    margin:auto;
+    margin-top: 15%;
+    width: 50%;
+    height: 50%;
+    border: 2px solid;
+    border-radius: 10px;
+    display: none;
+    text-align: center;
+
+    &__massage {
+        margin-top: 4%;
+        font-size: 30px;
+    }
+}
+
+.content {
+    margin:auto;
+    @media screen and (min-width : 400px) {
+        width: 90%;
+        height: 70%;
+    }
+    display: none;
+    margin: 0 auto;
+    margin-top: 5%;
+
+    &-block {
+        margin:auto;
+        @media screen and (max-width : 400px) {
+            font-size: 30px;
+        }
+        @media screen and (max-width : 600px) {
+            margin-top: 7%;
+        }
+        @media screen and (min-width : 600px) {
+            margin-top: 10%;
+        }
+        width: 90%;
+        height: 40%;
+        font-size: 40px;
+
+        border: 2px solid;
+        border-radius: 5px;
+        min-height: 100px;
+        padding: 1%;
+        overflow: hidden;
+
+        &__cat {
+            @media screen and (min-width : 400px) {
+                margin-top: 0.5%;
+                width: 130px;
+                height: 107px;
+            }
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+.toolbar {
+    margin: auto;
+    @media screen and (min-width : 480px) {
+        margin-top: 0.5%;
+        width: 80%;
+        height: 15%;
+    }
+
+    &-iconl {
+        display:none;
+        @media screen and (max-width : 600px) {
+            margin-top: 21%;
+        }
+        @media screen and (min-width : 600px) {
+            margin-top: 25%;
+        }
+        width: 20%;
+        height: 15%;
+        margin:auto;
+    }
+
+    &-iconc {
+        @media screen and (max-width : 600px) {
+            margin-top: 22%;
+            margin-left: 30%;
+        }
+        @media screen and (max-width : 400px) {
+            margin-top: 22%;
+            margin-left: 25%;
+        }
+        @media screen and (min-width : 600px) {
+            margin-top: 25%;
+            margin-left: 30%;
+        }
+        display: none;
+
+        &__btn {
+            margin: 0 auto;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.2);   
+            color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+            font-size: 20px;
+            padding: 5%;
+            position: relative;
+            left: 10px;
+        }
+
+        &__element {
+            margin: 5%;
+            margin-left: 10%;
+        }
+    }
+}
+
+
+.joystick-screen {
+    display: none;
+    @media screen and (max-width : 400px) {
+        width: 250px;
+        height: 300px;
+    }
+    @media screen and (min-width : 400px) {
+        min-width: 300px;
+        min-height: 300px;
+    }
+    width: 30%;
+    height: 50%;
+    margin:auto;
+    margin-top: 7%;
+    font-size: 30px;
+
+    &-token {
+    	@media screen and (max-width : 600px) {
+            padding: 1%;
+            height: 70%;
+        }
+    	@media screen and (max-width : 400px) {
+            width: 90%;
+            min-width: 200px;
+            margin:auto;
+        }
+        @media screen and (min-width : 600px) {
+            width: 90%;
+            height: 85%;
+            min-width: 200px;
+            margin:auto;
+        }
+        border: 2px solid white;
+        border-radius: 10px;
+        margin-right: 5%;
+        padding: 3%;
+        margin:auto;
+
+        &__form {
+            @media screen and (min-width : 400px) {
+                width: 90%;
+            }
+            height: 85%;
+        }
+
+        &__text {
+            margin-top: 5%;
+            text-align: center;
+        }
+
+        &__input {
+            @media screen and (max-width : 600px) {
+                margin-top: 10%;
+                margin-left: 9%;
+            }
+            @media screen and (max-width : 400px) {
+        		margin: 20px auto;
+        		display: block; 
+            }
+            @media screen and (min-width : 600px) {
+                margin-top: 15%;
+                margin-left: 14%;
+            }
+            min-width: 100px;
+            width: 80%;
+            height: 15%;
+            color: white;
+            font-size: 20px;
+            border: 1px solid white;
+            border-radius: 10px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        &__btn {
+            @media screen and (max-width : 600px) {
+                margin-top: 10%;
+                margin-left: 40%;
+            } 
+            @media screen and (max-width : 400px) {
+                margin: 30px auto;
+                display: block;
+            }
+            @media screen and (min-width : 600px) {
+                margin-top: 14%;
+                margin-left: 35%;
+            }
+            min-width:100px;
+            width: 35%;
+            height: 30%;
+            background: rgba(0, 0, 0, 0.2);   
+            color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+            font-size: 20px;
+            padding: 2%;
+            text-align: center;
+
+            &:hover {
+                background: rgba(255, 255, 255, 0.2);   
+            }
+
+            &:active {
+                background: rgba(255, 255, 255, 0.8);   
+            }
+        }
+    }
+
+}
+

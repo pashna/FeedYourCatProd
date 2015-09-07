@@ -1,0 +1,270 @@
+html {
+  width: 98%;
+  height: 50%;
+  margin: auto;
+  overflow: hidden; }
+
+body {
+  background: rgba(0, 0, 0, 0.8);
+  font-family: "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  color: white;
+  width: 90%;
+  height: 70%;
+  margin: auto; }
+
+#replay_btn {
+  position: relative; }
+  @media screen and (max-width: 600px) {
+    #replay_btn {
+      right: 70px;
+      width: 75px;
+      height: 75px; } }
+  @media screen and (max-width: 400px) {
+    #replay_btn {
+      right: 50px;
+      width: 40px;
+      height: 40px; } }
+  @media screen and (min-width: 600px) {
+    #replay_btn {
+      right: 50px;
+      width: 70px;
+      height: 70px; } }
+
+#next_btn {
+  position: relative;
+  left: 50px; }
+  @media screen and (max-width: 400px) {
+    #next_btn {
+      width: 40px;
+      height: 40px; } }
+  @media screen and (min-width: 400px) {
+    #next_btn {
+      width: 70px;
+      height: 70px; } }
+
+#newGame_btn {
+  width: 80%;
+  height: 20%; }
+  @media screen and (max-width: 400px) {
+    #newGame_btn {
+      margin-left: 20%; } }
+  @media screen and (min-width: 400px) {
+    #newGame_btn {
+      margin-left: 30%; } }
+
+.title {
+  width: 50%;
+  margin: 0 auto; }
+
+.title__text {
+  font-size: 30px;
+  text-decoration: overline;
+  text-align: center;
+  margin-top: 5%; }
+  @media screen and (max-width: 600px) {
+    .title__text {
+      font-size: 35px; } }
+  @media screen and (max-width: 400px) {
+    .title__text {
+      font-size: 30px; } }
+  @media screen and (min-width: 600px) {
+    .title__text {
+      font-size: 45px; } }
+
+.joy {
+  width: 95%;
+  height: 70%;
+  margin: auto; }
+
+.error {
+  margin: auto;
+  margin-top: 15%;
+  width: 50%;
+  height: 50%;
+  border: 2px solid;
+  border-radius: 10px;
+  display: none;
+  text-align: center; }
+  .error__massage {
+    margin-top: 4%;
+    font-size: 30px; }
+
+.content {
+  margin: auto;
+  display: none;
+  margin: 0 auto;
+  margin-top: 5%; }
+  @media screen and (min-width: 400px) {
+    .content {
+      width: 90%;
+      height: 70%; } }
+  .content-block {
+    margin: auto;
+    width: 90%;
+    height: 40%;
+    font-size: 40px;
+    border: 2px solid;
+    border-radius: 5px;
+    min-height: 100px;
+    padding: 1%;
+    overflow: hidden; }
+    @media screen and (max-width: 400px) {
+      .content-block {
+        font-size: 30px; } }
+    @media screen and (max-width: 600px) {
+      .content-block {
+        margin-top: 7%; } }
+    @media screen and (min-width: 600px) {
+      .content-block {
+        margin-top: 10%; } }
+    .content-block__cat {
+      position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+      @media screen and (min-width: 400px) {
+        .content-block__cat {
+          margin-top: 0.5%;
+          width: 130px;
+          height: 107px; } }
+
+.toolbar {
+  margin: auto; }
+  @media screen and (min-width: 480px) {
+    .toolbar {
+      margin-top: 0.5%;
+      width: 80%;
+      height: 15%; } }
+  .toolbar-iconl {
+    display: none;
+    width: 20%;
+    height: 15%;
+    margin: auto; }
+    @media screen and (max-width: 600px) {
+      .toolbar-iconl {
+        margin-top: 21%; } }
+    @media screen and (min-width: 600px) {
+      .toolbar-iconl {
+        margin-top: 25%; } }
+  .toolbar-iconc {
+    display: none; }
+    @media screen and (max-width: 600px) {
+      .toolbar-iconc {
+        margin-top: 22%;
+        margin-left: 30%; } }
+    @media screen and (max-width: 400px) {
+      .toolbar-iconc {
+        margin-top: 22%;
+        margin-left: 25%; } }
+    @media screen and (min-width: 600px) {
+      .toolbar-iconc {
+        margin-top: 25%;
+        margin-left: 30%; } }
+    .toolbar-iconc__btn {
+      margin: 0 auto;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.2);
+      color: white;
+      border: 1px solid white;
+      border-radius: 5px;
+      font-size: 20px;
+      padding: 5%;
+      position: relative;
+      left: 10px; }
+    .toolbar-iconc__element {
+      margin: 5%;
+      margin-left: 10%; }
+
+.joystick-screen {
+  display: none;
+  width: 30%;
+  height: 50%;
+  margin: auto;
+  margin-top: 7%;
+  font-size: 30px; }
+  @media screen and (max-width: 400px) {
+    .joystick-screen {
+      width: 250px;
+      height: 300px; } }
+  @media screen and (min-width: 400px) {
+    .joystick-screen {
+      min-width: 300px;
+      min-height: 300px; } }
+  .joystick-screen-token {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 5%;
+    padding: 3%;
+    margin: auto; }
+    @media screen and (max-width: 600px) {
+      .joystick-screen-token {
+        padding: 1%;
+        height: 70%; } }
+    @media screen and (max-width: 400px) {
+      .joystick-screen-token {
+        width: 90%;
+        min-width: 200px;
+        margin: auto; } }
+    @media screen and (min-width: 600px) {
+      .joystick-screen-token {
+        width: 90%;
+        height: 85%;
+        min-width: 200px;
+        margin: auto; } }
+    .joystick-screen-token__form {
+      height: 85%; }
+      @media screen and (min-width: 400px) {
+        .joystick-screen-token__form {
+          width: 90%; } }
+    .joystick-screen-token__text {
+      margin-top: 5%;
+      text-align: center; }
+    .joystick-screen-token__input {
+      min-width: 100px;
+      width: 80%;
+      height: 15%;
+      color: white;
+      font-size: 20px;
+      border: 1px solid white;
+      border-radius: 10px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.2); }
+      @media screen and (max-width: 600px) {
+        .joystick-screen-token__input {
+          margin-top: 10%;
+          margin-left: 9%; } }
+      @media screen and (max-width: 400px) {
+        .joystick-screen-token__input {
+          margin: 20px auto;
+          display: block; } }
+      @media screen and (min-width: 600px) {
+        .joystick-screen-token__input {
+          margin-top: 15%;
+          margin-left: 14%; } }
+    .joystick-screen-token__btn {
+      min-width: 100px;
+      width: 35%;
+      height: 30%;
+      background: rgba(0, 0, 0, 0.2);
+      color: white;
+      border: 1px solid white;
+      border-radius: 5px;
+      font-size: 20px;
+      padding: 2%;
+      text-align: center; }
+      @media screen and (max-width: 600px) {
+        .joystick-screen-token__btn {
+          margin-top: 10%;
+          margin-left: 40%; } }
+      @media screen and (max-width: 400px) {
+        .joystick-screen-token__btn {
+          margin: 30px auto;
+          display: block; } }
+      @media screen and (min-width: 600px) {
+        .joystick-screen-token__btn {
+          margin-top: 14%;
+          margin-left: 35%; } }
+      .joystick-screen-token__btn:hover {
+        background: rgba(255, 255, 255, 0.2); }
+      .joystick-screen-token__btn:active {
+        background: rgba(255, 255, 255, 0.8); }
