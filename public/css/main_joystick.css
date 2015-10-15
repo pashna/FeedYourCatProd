@@ -191,6 +191,7 @@ body {
       min-width: 300px;
       min-height: 300px; } }
   .joystick-screen-token {
+    display: block;
     border: 2px solid white;
     border-radius: 10px;
     margin-right: 5%;
@@ -212,10 +213,11 @@ body {
         min-width: 200px;
         margin: auto; } }
     .joystick-screen-token__form {
+      text-align: center;
       height: 85%; }
       @media screen and (min-width: 400px) {
         .joystick-screen-token__form {
-          width: 90%; } }
+          } }
     .joystick-screen-token__text {
       margin-top: 5%;
       text-align: center; }
@@ -227,12 +229,15 @@ body {
       font-size: 20px;
       border: 1px solid white;
       border-radius: 10px;
+      display: block;
+      margin: auto;
+      margin-top: 5%;
       text-align: center;
       background: rgba(0, 0, 0, 0.2); }
       @media screen and (max-width: 600px) {
         .joystick-screen-token__input {
           margin-top: 10%;
-          margin-left: 9%; } }
+          } }
       @media screen and (max-width: 400px) {
         .joystick-screen-token__input {
           margin: 20px auto;
@@ -240,7 +245,7 @@ body {
       @media screen and (min-width: 600px) {
         .joystick-screen-token__input {
           margin-top: 15%;
-          margin-left: 14%; } }
+          } }
     .joystick-screen-token__btn {
       min-width: 100px;
       width: 35%;
@@ -255,7 +260,7 @@ body {
       @media screen and (max-width: 600px) {
         .joystick-screen-token__btn {
           margin-top: 10%;
-          margin-left: 40%; } }
+          } }
       @media screen and (max-width: 400px) {
         .joystick-screen-token__btn {
           margin: 30px auto;
@@ -263,7 +268,7 @@ body {
       @media screen and (min-width: 600px) {
         .joystick-screen-token__btn {
           margin-top: 14%;
-          margin-left: 35%; } }
+          } }
       .joystick-screen-token__btn:hover {
         background: rgba(255, 255, 255, 0.2); }
       .joystick-screen-token__btn:active {
