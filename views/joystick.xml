@@ -25,7 +25,11 @@
             <div class="title__text">Feed Your Cat</div>
         </div>
         <div class="error">
-            <div class="error__massage">Sorry, your brouser is too bad to play!</div>
+            <div class="error__massage">
+			<p>It's a joystick page! Only smartphone can be used!</p>
+		        <p>Open the main page from your smartphone and enter the token from the laptop version!</p> 
+			<p>It's easier than it looks :)</p>
+	    </div>
         </div>
         <div class="joystick-screen" id="token-screen">
             <div class="joystick-screen-token">

@@ -2,7 +2,7 @@ body {
   background: rgba(0, 0, 0, 0.8);
   font-family: "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   color: white;
-  min-width: 500px; }
+}
 
 .game-title {
   font-size: 40px;
@@ -97,6 +97,7 @@ body {
   min-width: 20%;
   margin: 0 auto;
   padding-top: 8%; }
+  
   .content_padding_xs {
     padding-top: 4%; }
   .content_width_xl {
@@ -124,6 +125,11 @@ body {
     padding-right: 20px; }
   .content__table tr:hover {
     background: rgba(255, 255, 255, 0.2); }
+
+@media screen and (max-width: 600px) {
+    .content {
+      width: 100%} 
+}
 
 .toolbar {
   max-width: 60%;
@@ -225,3 +231,21 @@ body {
 
 #cat_right, #cat_hungry, #cat_perfect {
   display: none; }
+
+.hidden_mobile {
+  display: inline-block;
+}
+
+.hidden_laptop {
+  display: none;
+}
+
+@media only screen and (max-width: 600px){
+   .hidden_laptop {
+       display: inline-block;
+   }
+
+  .hidden_mobile {
+      display: none;
+   }
+}

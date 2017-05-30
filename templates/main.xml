@@ -7,8 +7,9 @@
     <div class="content">
         <div class="content__title">Main Menu</div>
         <div class="toolbar">
-            <p><a href="#game" class="toolbar__button">Start Game</a></p>
-            <p><a href="#scoreboard" class="toolbar__button">Score Board</a></p>
+            <p class="hidden_mobile"><a href="#game" class="toolbar__button">Start Game</a></p>
+            <p class="hidden_mobile"><a href="#scoreboard" class="toolbar__button">Score Board</a></p>
+	    <p class="hidden_laptop"><a href="/joystick" class="toolbar__button">Joystick</a></p>
         </div>
     </div>
 </fest:template>

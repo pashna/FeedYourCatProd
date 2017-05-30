@@ -11,6 +11,7 @@
         <div class="token">
             <div class="token__text"> Your token to play: </div>
             <div id="token" class="token__text_x2"></div>
+	    <div class="token__text"> Enter it on your smartphone </div>
         </div>
         <div class="content content_width_xl">
         	<div class="game-screen">
@@ -42,3 +43,5 @@
         </div>
     </div>
 </fest:template>
+
+

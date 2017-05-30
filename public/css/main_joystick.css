@@ -79,15 +79,13 @@ body {
 .error {
   margin: auto;
   margin-top: 15%;
-  width: 50%;
-  height: 50%;
   border: 2px solid;
   border-radius: 10px;
   display: none;
   text-align: center; }
   .error__massage {
-    margin-top: 4%;
-    font-size: 30px; }
+    margin: 4%;
+    font-size: 26px; }
 
 .content {
   margin: auto;
